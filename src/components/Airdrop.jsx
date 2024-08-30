@@ -21,7 +21,6 @@ export const Airdrop = () => {
     boxSizing: 'border-box', 
     borderRadius: "0.4rem",
     marginTop: '1rem' 
-
   }
 
   const styleButton = {
