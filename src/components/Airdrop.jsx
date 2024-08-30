@@ -14,10 +14,32 @@ export const Airdrop = () => {
     alert("airdropped sol")
   }
 
+  const styleInput = { 
+    width: '100%', 
+    marginBottom: '1rem', 
+    padding: '0.7rem', 
+    boxSizing: 'border-box', 
+    borderRadius: "0.4rem",
+    marginTop: '1rem' 
+
+  }
+
+  const styleButton = {
+    width: '100%', 
+    marginBottom: '1rem', 
+    padding: '0.7rem',
+    fontSize: "1rem",
+    borderRadius: "0.4rem",
+    boxSizing: 'border-box', 
+    marginTop: '1rem',
+    color: "white",
+    backgroundColor: "black"
+  }
+
   return (
-    <div style={{margin: '3rem',paddingLeft: "6rem",paddingRight: "6rem"}}>
-        <input id="amount" type="text" placeholder='Amount' style={{margin: "1rem" ,padding:"1rem",borderRadius: "0 0.5rem", border: "0.1rem solid" ,fontSize: "0.9rem"}}></input>
-        <button onClick={sendAirdropToUser} style={{margin: "1rem" ,padding:"1rem",borderRadius: "0 1rem", border: "0", backgroundColor: "black" , color: "white" ,fontSize: "0.9rem"}}> Send Airdrop</button>
+    <div>
+        <input id="amount" type="text" placeholder='Amount' style={styleInput}></input>
+        <button onClick={sendAirdropToUser} style={styleButton}> Send Airdrop</button>
     </div>
   )
 }
