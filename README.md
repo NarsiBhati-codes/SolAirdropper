@@ -28,7 +28,7 @@ Before you begin, ensure you have the following installed:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/SolAirdropper.git
+   git clone https://github.com/NarsiBhati-codes/SolAirdropper.git
    cd SolAirdropper
    ```
 
@@ -53,13 +53,13 @@ Before you begin, ensure you have the following installed:
    If you're using npm:
 
    ```bash
-   npm start
+   npm run dev
    ```
 
    Or if you're using yarn:
 
    ```bash
-   yarn start
+   yarn run dev
    ```
 
 2. **Open your browser** and navigate to `http://localhost:3000` to see the app in action.
@@ -69,27 +69,6 @@ Before you begin, ensure you have the following installed:
 - **Connect your Wallet**: Click on the "Connect Wallet" button to connect your Solana wallet.
 - **Specify Airdrop Amount**: Enter the amount of SOL you wish to receive in the input field.
 - **Request Airdrop**: Click the "Send Airdrop" button to receive the specified amount of SOL in your wallet.
-
-### Project Structure
-
-- **`src/App.tsx`**: Main application file where the Solana wallet connection and airdrop functionality are handled.
-- **`src/components/Airdrop.tsx`**: Component responsible for handling the airdrop logic.
-
-### Contributing
-
-Contributions are welcome! If you'd like to contribute, please follow these steps:
-
-1. **Fork the repository.**
-2. **Create a new branch** (`git checkout -b feature/your-feature-name`).
-3. **Make your changes** and commit them (`git commit -m 'Add some feature'`).
-4. **Push to the branch** (`git push origin feature/your-feature-name`).
-5. **Create a Pull Request**.
-
-Please ensure your code follows the project's coding standards and passes all tests.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ### Acknowledgements
 
